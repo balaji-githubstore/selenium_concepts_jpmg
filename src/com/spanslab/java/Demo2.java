@@ -23,6 +23,8 @@ public class Demo2 {
        System.out.println(name);
 
        Area.quit();
+
+       //end
     }
 }
 

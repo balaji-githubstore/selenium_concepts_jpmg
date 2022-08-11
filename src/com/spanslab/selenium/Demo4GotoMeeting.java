@@ -20,6 +20,8 @@ public class Demo4GotoMeeting {
         driver.findElement(By.xpath("//button[text()='Accept Recommended Settings']")).click();
         driver.findElement(By.linkText("Try Free")).click();
 
+        System.out.println(driver.getTitle());
+
 
 
     }
